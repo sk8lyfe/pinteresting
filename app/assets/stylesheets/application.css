@@ -13,6 +13,3 @@
  *= require_tree .
  *= require_self
  */
-.jumbotron {
-	padding-top: 45px;
-}

@@ -1,8 +1,17 @@
+
 <div class="jumbotron center">
-     <h1>Welcome!</h1>
-     <p>
-       <%= link_to "Log in", "#", class: "btn btn-default btn-lg" %>
-       <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
-  </p>    
+ 		<h2>welcome to</h2>
+     <h1>dahero</h1>
+ <% if user_signed_in? %>
+     
+     <p>to pints</p>
+     click here to get started
+
+    <% else %>
+  <p>
+       <%= link_to "Log in", user_session_path, class: "btn btn-default btn-lg" %>
+       <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+  </p>  
+ <% end %>
 </div>
 
