@@ -1,4 +1,4 @@
-<% if user_signed_in? %> 
+
 <nav class="navbar navbar-default navbar-fixed-top ">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,10 +24,11 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
+ 
 
+ <% if user_signed_in? %> 
        
         <li><%= link_to 'Home', root_path %></li>
-        <li><%= link_to 'About', about_path %></li>
         <li><%= link_to 'Settings', edit_user_registration_path %></li>
 
         <% if user_signed_in? %>
