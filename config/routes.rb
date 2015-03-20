@@ -4,8 +4,6 @@ Rails.application.routes.draw do
 
  get 'about' => 'pages#about'
 
- get 'contacts' => 'pages#contacts'
-
  get 'profile' => 'pages#profile'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
