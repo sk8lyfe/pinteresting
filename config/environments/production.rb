@@ -78,5 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # required by heroku
-   onfig.action_mailer.default_url_options = { :host => 'http://mariit.herokuapp.com/' }
+   config.action_mailer.default_url_options = { :host => 'http://mariit.herokuapp.com/' }
 end
