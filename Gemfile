@@ -10,6 +10,8 @@ gem 'rails', '4.2.0'
 gem 'devise', '~> 3.4.1'
 
 
+gem "paperclip", "~> 4.2"
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
